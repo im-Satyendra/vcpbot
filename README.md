@@ -1,2 +1,1 @@
-# vcpbot
- none
+https://railway.app/new/template?template=https://github.com/Casperteam/vcpbot&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME
