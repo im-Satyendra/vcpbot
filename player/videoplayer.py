@@ -14,7 +14,7 @@ VIDEO_CALL = {}
 async def v(client, m: Message):
     replied = m.reply_to_message
     if not replied:
-        await m.reply("**what shuld i play**")
+        await m.reply("**what shuld i play? Reply to video..**")
     elif replied.video or replied.document:
         msg = await m.reply("Downloading...")
         chat_id = m.chat.id
